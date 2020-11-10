@@ -65,7 +65,7 @@ class Person{
    }
 
    public virtual void Intro(){
-       Console.WriteLine("Hello my name is *** "+ FirstName +" "+ LastName);
+       Console.WriteLine("Hello my name is "+ FirstName +" "+ LastName);
        PermanentAddress.Display();
    }
    public void IsBirthday(){
